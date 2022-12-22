@@ -11,6 +11,10 @@ def bad_two():
     eval(y)
 
 
+def bad_three():
+    eval(input("Will code scanning allow us to suppress both warnings at once???"))
+
+
 def main():
     bad_one()
     bad_two()
